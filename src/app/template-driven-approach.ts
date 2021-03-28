@@ -3,7 +3,7 @@ import { NgForm, NgModel } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl: './template-driven-approach.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
