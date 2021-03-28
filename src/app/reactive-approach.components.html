@@ -34,7 +34,7 @@
               [value]="gender">{{ gender }}
           </label>
         </div>
-        <!--<div formArrayName="hobbies">
+        <div formArrayName="hobbies">
           <h4>Your Hobbies</h4>
           <button 
               class="btn btn-default" 
@@ -51,7 +51,7 @@
               class="help-block">This field is required</span>
           </div>
         </div>
-        -->
+        
         <span 
             *ngIf="signupForm.invalid && signupForm.touched"
             class="help-block">Please enter valid data!</span>
